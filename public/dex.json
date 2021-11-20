@@ -18,10 +18,10 @@
 
         "asset": "https://schema.org/priceCurrency",
         "amount": "https://schema.org/price",
-        "settlement": "https://schema.org/actionPlatform",
+        "settlementNetwork": "https://schema.org/actionPlatform",
         "offeredAsset": "https://schema.org/priceCurrency",
-        "offeredSettlement": "https://schema.org/actionPlatform",
-        "offerAmount": "https://schema.org/price"
+        "offeredAmount": "https://schema.org/price",
+        "offeredSettlementNetwork": "https://schema.org/actionPlatform"
       }
     },
 
@@ -35,10 +35,8 @@
         "type": "@type",
         "cost": "https://schema.org/price",
         "amount": "https://schema.org/amount",
-        "settlementTime": "https://schema.org/maxValue",
-        "expiration": "https://schema.org/endTime"
+        "maxSettlementTime": "https://schema.org/maxValue"
       }
     }
   }
 }
-
