@@ -1,0 +1,44 @@
+{
+  "@id": "https://aviary.vc/dex",
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "id": "@id",
+    "type": "@type",
+
+    "Ask": {
+      "@id": "https://aviary.vc/dex#Ask",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "asset": "https://schema.org/priceCurrency",
+        "amount": "https://schema.org/price",
+        "settlement": "https://schema.org/actionPlatform",
+        "offeredAsset": "https://schema.org/priceCurrency",
+        "offeredSettlement": "https://schema.org/actionPlatform",
+        "offerAmount": "https://schema.org/price"
+      }
+    },
+
+    "Bid": {
+      "@id": "https://aviary.vc/dex#Bid",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+        "cost": "https://schema.org/price",
+        "amount": "https://schema.org/amount",
+        "settlementTime": "https://schema.org/maxValue",
+        "expiration": "https://schema.org/endTime"
+      }
+    }
+  }
+}
+

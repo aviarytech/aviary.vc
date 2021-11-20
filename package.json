@@ -1,0 +1,23 @@
+{
+  "name": "aviary.vc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "contexts",
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aviarytech/aviary.vc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aviarytech/aviary.vc/issues"
+  },
+  "homepage": "https://github.com/aviarytech/aviary.vc#readme",
+  "devDependencies": {
+    "vite": "^2.6.14"
+  }
+}
